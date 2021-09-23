@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1018254563075",
+    "firebase_url": "https://buy-books-online-52c4c-default-rtdb.firebaseio.com",
+    "project_id": "buy-books-online-52c4c",
+    "storage_bucket": "buy-books-online-52c4c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018254563075:android:08ceb9ae4d4db531ab3b36",
+        "android_client_info": {
+          "package_name": "com.example.buybooksonline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1018254563075-hapk20tiqmrcmodbu14qfcjp2fm5jv1n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCt81C2LA4KAWCVKoyFJOaGWVYGIxB1a-A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1018254563075-hapk20tiqmrcmodbu14qfcjp2fm5jv1n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

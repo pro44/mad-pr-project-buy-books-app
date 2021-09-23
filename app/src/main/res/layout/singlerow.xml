@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="5dp"
+    android:elevation="5dp"
+    app:cardUseCompatPadding="true"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <ImageView
+            android:id="@+id/book_image"
+            android:layout_width="fill_parent"
+            android:layout_height="130dp"
+            android:src="@drawable/book_black_icon"
+            />
+
+        <TextView
+            android:id="@+id/bookname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="bookname"
+            android:textSize="15dp"
+            android:textColor="#040302"
+            />
+        <TextView
+            android:id="@+id/bookpages"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="pages 100"
+            android:textSize="15dp"
+            android:textColor="#FF7700"
+            />
+
+        <TextView
+            android:id="@+id/bookprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textSize="15dp"
+            android:text="100 PKR"
+            android:textColor="#73EF07"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/remqty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#EF7307"
+            android:gravity="right"
+            android:textSize="15dp"
+            android:text="in stock 38"
+            />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

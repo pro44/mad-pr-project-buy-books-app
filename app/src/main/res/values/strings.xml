@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">buy books online</string>
+    <string name="tab1_name">User</string>
+    <string name="tab2_name">Admin</string>
+    <string name="admin_eamil_hint">Admin Email</string>
+    <string name="admin_pass_hint">Admin Password</string>
+
+    <string name="user_eamil_hint">user E-mail</string>
+    <string name="user_pass_hint">user password</string>
+    <string name="login_button_text">Login</string>
+    <string name="user_name">username</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="select_date">dd/mm/yyyy</string>
+    <string name="phone">phone number</string>
+    <string name="address">address</string>
+    <string name="register">register</string>
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <string name="upload_book_image">attach image of book</string>
+    <string name="book_name">book name</string>
+    <string name="book_price">book price in PKR</string>
+    <string name="pages">no of pages</string>
+    <string name="quantity">quantity of books in stock</string>
+    <string name="upload_book">upload book</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

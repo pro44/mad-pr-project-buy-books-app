@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/asim/AndroidStudioProjects/buybooksonline/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/asim/AndroidStudioProjects/buybooksonline/app/src/main/res/layout/activity_main2.xml" value="0.17899543378995433" />
+        <entry key="..\:/Users/asim/AndroidStudioProjects/buybooksonline/app/src/main/res/layout/activity_order_book.xml" value="0.1" />
+        <entry key="..\:/Users/asim/AndroidStudioProjects/buybooksonline/app/src/main/res/layout/fragment_add_book.xml" value="0.1" />
+        <entry key="..\:/Users/asim/AndroidStudioProjects/buybooksonline/app/src/main/res/layout/fragment_admin_login.xml" value="0.1" />
+        <entry key="..\:/Users/asim/AndroidStudioProjects/buybooksonline/app/src/main/res/layout/fragment_home.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/asim/AndroidStudioProjects/buybooksonline/app/src/main/res/layout/nav_header_layout.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/asim/AndroidStudioProjects/buybooksonline/app/src/main/res/layout/nav_header_main.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/asim/AndroidStudioProjects/buybooksonline/app/src/main/res/menu/menu.xml" value="0.1814814814814815" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

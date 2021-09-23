@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AdminRegister">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/admin_name_R"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="13dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginEnd="13dp"
+                android:layout_marginRight="13dp"
+                android:background="@drawable/edit_text_background"
+                android:ems="10"
+                android:hint="@string/user_name"
+                android:inputType="textPersonName"
+                android:padding="12dp" />
+            <EditText
+                android:id="@+id/admin_email_R"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="13dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="13dp"
+                android:layout_marginRight="13dp"
+                android:background="@drawable/edit_text_background"
+                android:ems="10"
+                android:hint="@string/email"
+                android:inputType="textPersonName"
+                android:padding="12dp" />
+            <EditText
+                android:id="@+id/admin_password_R"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="13dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="13dp"
+                android:layout_marginRight="13dp"
+                android:background="@drawable/edit_text_background"
+                android:ems="10"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:padding="12dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+                <ImageButton
+                    android:id="@+id/admin_date_selector"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="13dp"
+                    android:background="#00000000"
+                    android:src="@drawable/calendar_icon"/>
+                <EditText
+                    android:id="@+id/admin_d_o_b_R"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="13dp"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginEnd="13dp"
+                    android:layout_marginRight="13dp"
+                    android:background="@drawable/edit_text_background"
+                    android:ems="10"
+                    android:hint="@string/select_date"
+                    android:inputType="textPersonName"
+                    android:padding="12dp" />
+            </LinearLayout>
+            <EditText
+                android:id="@+id/admin_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="13dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginEnd="13dp"
+                android:layout_marginRight="13dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edit_text_background"
+                android:ems="10"
+                android:hint="@string/phone"
+                android:inputType="textPersonName"
+                android:padding="12dp" />
+            <EditText
+                android:id="@+id/admin_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="13dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginEnd="13dp"
+                android:layout_marginRight="13dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edit_text_background"
+                android:ems="10"
+                android:hint="@string/address"
+                android:inputType="textPersonName"
+                android:padding="12dp" />
+
+            <Button
+                android:id="@+id/admin_registration_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="13dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="13dp"
+                android:layout_marginRight="13dp"
+                android:text="@string/register"
+                android:textColor="@color/text_color"
+                android:background="@drawable/edit_text_background"
+                app:backgroundTint="@color/app_items"
+                app:iconTint="#00FFFFFF" />
+            <TextView
+                android:id="@+id/admin_go_to_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="already have an account? login"/>
+            <ProgressBar
+                android:id="@+id/pb_admin_register"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:outlineSpotShadowColor="#5EFF61"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/goToRegister" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

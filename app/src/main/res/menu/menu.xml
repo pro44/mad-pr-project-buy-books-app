@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_home"
+    android:icon="@drawable/home_black_icon"
+    android:title="Home"
+    />
+    <item android:id="@+id/menu_upload_book"
+        android:icon="@drawable/add_black_icon"
+        android:title="upload book"
+        />
+    <item android:id="@+id/menu_my_orders"
+        android:icon="@drawable/view_order_icon_black"
+        android:title="my orders"
+        />
+    <item android:id="@+id/menu_logout"
+        android:icon="@drawable/logout_black_icon"
+        android:title="logout"
+    />
+</menu>
